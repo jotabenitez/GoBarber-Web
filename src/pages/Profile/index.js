@@ -20,6 +20,7 @@ export default function Profile() {
   function handleSignOut() {
     dispatch(signOut());
   }
+
   return (
     <Container>
       <Form initialData={profile} onSubmit={handleSubmit}>

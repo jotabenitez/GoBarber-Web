@@ -20,7 +20,8 @@ export default function AvatarInput() {
         path: 'dataset.file',
       });
     }
-  }, [ref, registerField]);
+    // }, [ref, registerField]); linha c erro no plugin
+  }, [ref.current]); // eslint-disable-line
 
   async function handleChange(e) {
     const data = new FormData();
