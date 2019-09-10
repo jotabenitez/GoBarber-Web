@@ -1,6 +1,8 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
+  height: stretch;
+  padding-bottom: 50px;
   max-width: 600px;
   margin: 50px auto;
 
@@ -36,7 +38,7 @@ export const Time = styled.li`
   padding: 20px;
   border-radius: 4px;
   background: #fff;
-
+  margin-bottom: 0;
   opacity: ${props => (props.past ? 0.6 : 1)};
 
   strong {

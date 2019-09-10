@@ -2,6 +2,8 @@ import styled from 'styled-components';
 import { darken } from 'polished';
 
 export const Container = styled.div`
+  height: stretch;
+  padding-bottom: 50px;
   max-width: 600px;
   margin: 0 50px;
   margin-left: 25%;
